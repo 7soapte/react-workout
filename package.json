@@ -4,6 +4,7 @@
   "description": "Test react, practice react, become react",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js, html}\" --write",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,7 +22,9 @@
   "devDependencies": {
     "eslint": "^7.19.0",
     "eslint-config-prettier": "^7.2.0",
-    "prettier": "^2.2.1"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.2.1",
+    "sass": "^1.32.6"
   },
   "dependencies": {
     "react": "^17.0.1",
